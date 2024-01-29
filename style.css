@@ -1,0 +1,94 @@
+* {
+  text-align: center;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url(images/bakgrunn.jpg);
+  margin-top: 100px;
+}
+.venstre {
+  margin-right: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.character {
+  margin-bottom: 20px;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-gap: 10px;
+  width: 200px;
+  height: 500px;
+  margin-left: 10px;
+}
+.equip {
+  margin-bottom: 20px;
+}
+.box-1 {
+  background-color: gray;
+}
+.box-3 {
+  background-color: aqua;
+}
+.hoyre {
+  margin-left: 200px;
+}
+ul {
+  display: flex;
+}
+li {
+  margin-right: 50px;
+}
+.stats {
+  border-style: ridge;
+  border-color: black;
+  border-width: 5px;
+  width: 500px;
+  height: 200px;
+}
+.nes {
+  display: flex;
+  flex-direction: row;
+}
+.n {
+  border-style: ridge;
+  border-color: black;
+  border-width: 5px;
+  width: 166px;
+}
+.e {
+  border-style: ridge;
+  border-color: black;
+  border-width: 5px;
+  width: 166px;
+}
+.s {
+  border-style: ridge;
+  border-color: black;
+  border-width: 5px;
+  width: 166px;
+}
+.ngle {
+  border-style: ridge;
+  border-width: 5px;
+  border-color: black;
+}
+.ng {
+  display: flex;
+  flex-direction: column;
+}
+.n {
+  display: flex;
+  flex-direction: row;
+}
+.g {
+  display: flex;
+  flex-direction: row;
+}
+.le {
+}
