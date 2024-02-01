@@ -2,12 +2,16 @@
   text-align: center;
   margin: 0;
 }
+
 body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  background-image: url(images/bakgrunn.jpg);
+  background-image: url(./images/bakgrunn.jpg);
   margin-top: 100px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 .venstre {
   margin-right: 300px;
@@ -15,7 +19,9 @@ body {
   flex-direction: column;
 }
 .character {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  font-size: 60px;
+  list-style-type: ;
 }
 .boxes {
   display: grid;
@@ -30,26 +36,115 @@ body {
   margin-bottom: 20px;
 }
 .box-1 {
-  background-color: gray;
+  background-image: url(./images/weapon1.webp);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-2 {
+  background-image: url(./images/weapon2.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
 }
 .box-3 {
   background-color: aqua;
+  background-image: url(./images/weapon3.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-4 {
+  background-image: url(./images/weapon4.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-5 {
+  background-image: url(./images/weapon5.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-6 {
+  background-image: url(./images/weapon6.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-7 {
+  background-image: url(./images/weapon7.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-8 {
+  background-image: url(./images/weapon8.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-9 {
+  background-image: url(./images/weapon9.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box-10 {
+  background-image: url(./images/weapon10.png);
+  background-size: cover;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
 }
 .hoyre {
   margin-left: 200px;
 }
+.hoyreboks {
+  border-style: ridge;
+  border-color: black;
+  color: white;
+  background-color: #849188;
+  border-width: 5px;
+  padding-bottom: 20px;
+  width: 500px;
+  height: 300px;
+}
 ul {
+  width: 500px;
+  font-size: 30px;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 0px;
+
+  padding-left: 20px;
 }
 li {
   margin-right: 50px;
+  margin-left: 20px;
+  list-style-type: none;
+  font-weight: bolder;
+}
+li::before {
+  content: "\2022";
+  margin-right: 10px;
+  list-style-type: square;
+  vertical-align: middle;
+  font-size: 100px;
 }
 .stats {
-  border-style: ridge;
-  border-color: black;
-  border-width: 5px;
   width: 500px;
-  height: 200px;
+  height: 50px;
 }
 .nes {
   display: flex;
@@ -73,22 +168,137 @@ li {
   border-width: 5px;
   width: 166px;
 }
+button {
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 .ngle {
-  border-style: ridge;
-  border-width: 5px;
-  border-color: black;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 .ng {
   display: flex;
   flex-direction: column;
 }
-.n {
+.name {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 10px;
 }
 .g {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
+}
+button {
+  width: 100px;
 }
 .le {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+.life {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.exp {
+  display: flex;
+  flex-direction: row;
+}
+.bar1 {
+  background-color: lime;
+  color: lime;
+  width: 130px;
+  margin-left: 20px;
+}
+.bar2 {
+  background-color: #071c14;
+  color: #071c14;
+  width: 270px;
+}
+.bar3 {
+  background-color: aqua;
+  color: aqua;
+  width: 220px;
+  margin-left: 20px;
+}
+.bar4 {
+  background-color: #071c14;
+  color: #071c14;
+  width: 180px;
+}
+.hoyreboks2 {
+  background-color: #849188;
+  width: 500px;
+  height: 200px;
+  margin-top: 40px;
+  border-style: ridge;
+  border-color: black;
+  border-width: 5px;
+  margin-bottom: 30px;
+}
+.tech {
+  border-style: ridge;
+  border-color: black;
+  border-width: 5px;
+}
+.tech2 {
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box2-1 {
+  background-image: url(./images/tech1.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box2-2 {
+  background-image: url(./images/tech2.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box2-3 {
+  background-image: url(./images/tech3.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
+}
+.box2-4 {
+  background-image: url(./images/tech4.png);
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-style: double;
+  border-color: white;
+  border-width: 3px;
 }
