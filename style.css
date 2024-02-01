@@ -21,7 +21,6 @@ body {
   flex-direction: column;
 }
 .character {
-  margin-bottom: 10px;
   font-size: 60px;
 }
 .boxes {
