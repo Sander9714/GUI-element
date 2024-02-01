@@ -136,6 +136,7 @@ li {
 }
 li::before {
   content: "\2022";
+  font-family: "Courier New", Courier, monospace;
   margin-right: 10px;
   list-style-type: square;
   vertical-align: middle;
